@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: rgb(2, 222, 208);
+  --background: linear-gradient(
+    90deg,
+    rgba(2, 222, 208, 0.5271358543417367) 21%,
+    rgba(171, 2, 222, 0.5271358543417367) 37%,
+    rgba(2, 210, 222, 0.5271358543417367) 51%,
+    rgba(160, 2, 222, 0.5271358543417367) 68%,
+    rgba(2, 192, 222, 1) 86%,
+    rgba(252, 0, 255, 1) 100%
+  );
+}
+.main1 {
+  margin-top: 50px;
+}
+.main1 img {
+  width: 45rem;
+  height: 35rem;
+}
+.multi-text {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.img1 img {
+  width: 200px;
+  height: 200px;
+}
+.btn {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(152, 152, 240);
+}
+.btn:hover {
+  background-color: rgb(248, 56, 229);
+}
+.famous {
+  background: var(--background);
+  font-size: 20px;
+  font-weight: bold;
+}
+.gradient {
+  background: var(--background);
+}
+.border {
+  border: 2px solid black !important;
+  border-radius: 20px 0px;
+  background-color: aliceblue;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.style {
+  width: fit-content;
+  border: 2px solid black !important;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px 0px;
+}
+.gradient .img1 img {
+  border: 2px solid black;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.placed .card {
+  border: 2px solid black !important;
+  border-radius: 20px;
+}
+hr {
+  width: 95vw;
+  margin: auto;
+}
+.icons i,
+.icons p {
+  width: 100%;
+  text-align: center !important;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.part1 img {
+  border-radius: 50%;
+}
+.btn1 {
+  border-radius: 50%;
+}
+.dark-mode {
+  background-color: black;
+  color: lightblue;
+}
+.part2 div,
+.part3 div {
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .main1 {
+    flex-direction: column;
+  }
+  .main1 img {
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cont {
+    text-align: center;
+  }
+  .gradient {
+    margin: 0px 30px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .part1 {
+    text-align: center;
+  }
+  .part2,
+  .part3 {
+    margin-left: 20px;
+  }
+}
+@media (width: 768px) {
+  .main1 img {
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (width: 820px) {
+  .main1 img {
+    width: 350px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (width: 1024px) {
+  .main1 img {
+    width: 500px;
+    height: 30rem;
+  }
+}
