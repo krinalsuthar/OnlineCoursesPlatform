@@ -30,7 +30,6 @@ window.onload = () => {
     dynamicCount(counter, startCount, endCount);
   });
 };
-
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
